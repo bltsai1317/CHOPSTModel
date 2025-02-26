@@ -921,7 +921,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1007,7 +1007,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Click login\n page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1031,7 +1031,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Accept/Deny Login\n",
+              "name": "Accept/Deny Login\n\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1170,7 +1170,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1247,7 +1247,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1324,7 +1324,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1348,7 +1348,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Access App \nLogin Page",
+              "name": "GET Request to App \nLogin Page",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1401,7 +1401,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1478,7 +1478,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Modify User Settings",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1502,7 +1502,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Modify User Settings",
+              "name": "PUT Request to \nModify User Settings",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1523,6 +1523,10 @@
               "port": "a04d08af-ea50-4d69-86e3-0c9e47464d47"
             },
             "vertices": [
+              {
+                "x": 290,
+                "y": 110
+              },
               {
                 "x": -100,
                 "y": 140
@@ -1560,7 +1564,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1642,7 +1646,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1724,7 +1728,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1801,7 +1805,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1883,7 +1887,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1965,7 +1969,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2047,7 +2051,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2071,7 +2075,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Access Vendor\nApplication Sites",
+              "name": "GET Request for \nVendor Websites",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2133,7 +2137,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2215,7 +2219,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2342,6 +2346,14 @@
                 "y": 620
               },
               {
+                "x": 330,
+                "y": 640
+              },
+              {
+                "x": 240,
+                "y": 640
+              },
+              {
                 "x": 80,
                 "y": 620
               }
@@ -2378,7 +2390,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2460,7 +2472,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2546,7 +2558,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2628,7 +2640,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2710,7 +2722,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2792,7 +2804,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "GET Request for App\nCommunications Page",
+                    "text": "Successful authentication",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2844,6 +2856,401 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Successful authentication",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "GET Request for\n VIP Page",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "c4b00b4d-0fb7-4c6a-a3cf-e03cfabdf297",
+            "source": {
+              "cell": "59c7759e-d82d-402d-87c4-86b24e4d507b",
+              "port": "487e34b8-9650-43ce-8e5b-9e4101964a42"
+            },
+            "target": {
+              "cell": "1d8b0ade-9ba6-4368-85ec-6f8aff5ff588",
+              "port": "112394d2-026b-4341-92c0-892b4f05a7ae"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Successful authentication",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query DB\nFor User Making\nRequest",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "14f704b2-61f5-4a86-98e7-a38c58c5e4fd",
+            "source": {
+              "cell": "1d8b0ade-9ba6-4368-85ec-6f8aff5ff588",
+              "port": "f9b73c82-babf-4241-a181-13a57776d30e"
+            },
+            "target": {
+              "cell": "df176bef-9dd0-4276-a7e7-bd175ef68d36",
+              "port": "9cb13315-0d80-4bde-90ca-5ee7a4fc91cb"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Successful authentication",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return query\nresult & authenticate\nor deny user",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "7eafa9ab-44dc-4f52-b81d-abe4bb5af492",
+            "source": {
+              "cell": "df176bef-9dd0-4276-a7e7-bd175ef68d36",
+              "port": "ef2ed730-77de-4fc3-a064-a8aa56a62b29"
+            },
+            "target": {
+              "cell": "1d8b0ade-9ba6-4368-85ec-6f8aff5ff588",
+              "port": "487e34b8-9650-43ce-8e5b-9e4101964a42"
+            },
+            "vertices": [
+              {
+                "x": 870,
+                "y": 680
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Successful authentication",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store access\nattempt",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "e30565ad-dec1-4c65-9c3e-aea4ed5c649d",
+            "source": {
+              "cell": "1d8b0ade-9ba6-4368-85ec-6f8aff5ff588",
+              "port": "f9b73c82-babf-4241-a181-13a57776d30e"
+            },
+            "target": {
+              "cell": "ca188699-bc84-4f5f-a0cd-1fb31a7027c1",
+              "port": "ac6f35ba-9354-45ea-b02a-9a2120bbf6f7"
+            },
+            "vertices": [
+              {
+                "x": 810,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Successful authentication",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Successful authentication",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "0d0b6696-8b94-4724-a29f-2bb76197bc75",
+            "source": {
+              "cell": "1d8b0ade-9ba6-4368-85ec-6f8aff5ff588",
+              "port": "cf2b4516-4a3d-4094-8ec5-f6aced94a6eb"
+            },
+            "target": {
+              "cell": "d23d44db-4215-460c-8569-abc27ac2415a",
+              "port": "112394d2-026b-4341-92c0-892b4f05a7ae"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 871.75,
               "y": 565
@@ -2857,11 +3264,13 @@
                 "text": "Login DB"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2957,13 +3366,33 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": true,
               "isSigned": false,
               "storesCredentials": true,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "7397579e-9ba3-45af-a3a2-b352f9e8bc3d",
+                  "title": "SQL Injection",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Attempting to exploit SQL language to get login info\nCould be tampering if they attempt to drop tables",
+                  "mitigation": "Input Sanitation, parameterization of inputs",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -4637,12 +5066,250 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": 623,
+              "y": 401.0000000000002
+            },
+            "size": {
+              "width": 150,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "RBAC\n(Allow Only \nVIP Users)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "112394d2-026b-4341-92c0-892b4f05a7ae"
+                },
+                {
+                  "group": "right",
+                  "id": "f9b73c82-babf-4241-a181-13a57776d30e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "487e34b8-9650-43ce-8e5b-9e4101964a42"
+                },
+                {
+                  "group": "left",
+                  "id": "cf2b4516-4a3d-4094-8ec5-f6aced94a6eb"
+                }
+              ]
+            },
+            "id": "1d8b0ade-9ba6-4368-85ec-6f8aff5ff588",
+            "zIndex": 29,
+            "data": {
+              "type": "tm.Process",
+              "name": "RBAC\n(Allow Only \nVIP Users)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 492.5,
+              "y": 490
+            },
+            "size": {
+              "width": 80,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "VIP Pages"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "112394d2-026b-4341-92c0-892b4f05a7ae"
+                },
+                {
+                  "group": "right",
+                  "id": "f9b73c82-babf-4241-a181-13a57776d30e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "487e34b8-9650-43ce-8e5b-9e4101964a42"
+                },
+                {
+                  "group": "left",
+                  "id": "cf2b4516-4a3d-4094-8ec5-f6aced94a6eb"
+                }
+              ]
+            },
+            "id": "d23d44db-4215-460c-8569-abc27ac2415a",
+            "zIndex": 30,
+            "data": {
+              "type": "tm.Process",
+              "name": "VIP Pages",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
