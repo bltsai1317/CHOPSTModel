@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 50,
-              "y": 180
+              "x": -100,
+              "y": 100
             },
             "size": {
               "width": 112.5,
@@ -135,8 +135,8 @@
           },
           {
             "position": {
-              "x": 415,
-              "y": 80
+              "x": 410,
+              "y": 15
             },
             "size": {
               "width": 190,
@@ -251,8 +251,8 @@
           },
           {
             "position": {
-              "x": 190,
-              "y": 90
+              "x": 80,
+              "y": 20
             },
             "size": {
               "width": 160,
@@ -367,8 +367,8 @@
           },
           {
             "position": {
-              "x": 132.5,
-              "y": 390
+              "x": 540,
+              "y": 350
             },
             "size": {
               "width": 120,
@@ -490,8 +490,8 @@
           },
           {
             "position": {
-              "x": 585,
-              "y": 180
+              "x": 685,
+              "y": 110
             },
             "size": {
               "width": 112.5,
@@ -606,8 +606,8 @@
           },
           {
             "position": {
-              "x": 505,
-              "y": 390
+              "x": 36.25,
+              "y": 350
             },
             "size": {
               "width": 120,
@@ -729,8 +729,8 @@
           },
           {
             "position": {
-              "x": 300,
-              "y": 390
+              "x": 193.75,
+              "y": 350
             },
             "size": {
               "width": 160,
@@ -838,6 +838,712 @@
             "data": {
               "type": "tm.Store",
               "name": "Misc. Personal Data Logs\n(& Deletion Requests)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 272.5,
+              "y": 130
+            },
+            "size": {
+              "width": 120,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Mobile App"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a04d08af-ea50-4d69-86e3-0c9e47464d47"
+                },
+                {
+                  "group": "right",
+                  "id": "c3646f31-9203-4152-88ad-653113d9e636"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c5598f3c-897a-4d33-8e2e-c36c5f3eb3f3"
+                },
+                {
+                  "group": "left",
+                  "id": "9de2d875-d48a-4fff-b724-732986f0f03b"
+                }
+              ]
+            },
+            "id": "99e9fa9b-3952-4ce8-88f0-77d9611c63f6",
+            "zIndex": 8,
+            "data": {
+              "type": "tm.Process",
+              "name": "Mobile App",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 40,
+              "y": 250
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Communications\nPages"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "98705396-a7ff-4065-8214-0562d434525c"
+                },
+                {
+                  "group": "right",
+                  "id": "10c18050-5110-41dd-ad96-3a249b1ea0da"
+                },
+                {
+                  "group": "bottom",
+                  "id": "fac968e2-8342-4897-9718-ac3774017639"
+                },
+                {
+                  "group": "left",
+                  "id": "d6ba94aa-7eaa-4b40-8187-410a15c68f4b"
+                }
+              ]
+            },
+            "id": "3c20ea11-079c-4f15-9d61-b9abaca897cc",
+            "zIndex": 9,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Communications\nPages",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 540,
+              "y": 250
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Ticket Purchasing \nPages"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "98705396-a7ff-4065-8214-0562d434525c"
+                },
+                {
+                  "group": "right",
+                  "id": "10c18050-5110-41dd-ad96-3a249b1ea0da"
+                },
+                {
+                  "group": "bottom",
+                  "id": "fac968e2-8342-4897-9718-ac3774017639"
+                },
+                {
+                  "group": "left",
+                  "id": "d6ba94aa-7eaa-4b40-8187-410a15c68f4b"
+                }
+              ]
+            },
+            "id": "9646023f-1d12-404e-844c-71052e90e077",
+            "zIndex": 10,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Ticket Purchasing \nPages",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 217.5,
+              "y": 250
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User Settings\nPages"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "98705396-a7ff-4065-8214-0562d434525c"
+                },
+                {
+                  "group": "right",
+                  "id": "10c18050-5110-41dd-ad96-3a249b1ea0da"
+                },
+                {
+                  "group": "bottom",
+                  "id": "fac968e2-8342-4897-9718-ac3774017639"
+                },
+                {
+                  "group": "left",
+                  "id": "d6ba94aa-7eaa-4b40-8187-410a15c68f4b"
+                }
+              ]
+            },
+            "id": "0518b79a-0324-440d-8276-db986d73808b",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Actor",
+              "name": "User Settings\nPages",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 387.5,
+              "y": 250
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Login Pages"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "98705396-a7ff-4065-8214-0562d434525c"
+                },
+                {
+                  "group": "right",
+                  "id": "10c18050-5110-41dd-ad96-3a249b1ea0da"
+                },
+                {
+                  "group": "bottom",
+                  "id": "fac968e2-8342-4897-9718-ac3774017639"
+                },
+                {
+                  "group": "left",
+                  "id": "d6ba94aa-7eaa-4b40-8187-410a15c68f4b"
+                }
+              ]
+            },
+            "id": "9cd88389-25b6-4198-9764-714d2e766eb3",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Login Pages",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 392.5,
+              "y": 350
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Login DB"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ac6f35ba-9354-45ea-b02a-9a2120bbf6f7"
+                },
+                {
+                  "group": "right",
+                  "id": "bc65f2e0-4c95-4366-9d82-c53b840a5b71"
+                },
+                {
+                  "group": "bottom",
+                  "id": "58bb5673-765b-4f71-870b-ecd69c2ad2dc"
+                },
+                {
+                  "group": "left",
+                  "id": "004dc84b-cf63-4532-8d99-13183d3a4a71"
+                }
+              ]
+            },
+            "id": "ca188699-bc84-4f5f-a0cd-1fb31a7027c1",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Store",
+              "name": "Login DB",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
