@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "f1e0af62-e999-4668-a5cc-8879fa96d014",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
@@ -154,6 +154,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -237,7 +238,6 @@
               ]
             },
             "id": "a19d00ed-cbf8-461d-9ed9-8708c364761b",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Cybersecurity Team/Services",
@@ -270,6 +270,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -353,7 +354,6 @@
               ]
             },
             "id": "4f2016be-46d3-4b7e-a158-f21ba6854224",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Physical Security Team",
@@ -389,6 +389,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -472,7 +473,6 @@
               ]
             },
             "id": "4189a8e8-efd4-48e8-bc2a-80d273e35559",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Payment Info DB",
@@ -509,6 +509,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -592,7 +593,6 @@
               ]
             },
             "id": "858cf3fc-8df6-4ea0-b326-28873427ebfe",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "Admin Team",
@@ -628,6 +628,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -711,7 +712,6 @@
               ]
             },
             "id": "a1751410-bc8f-4cc4-9926-917b5aeca7bc",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "User Chat Logs",
@@ -751,6 +751,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -834,7 +835,6 @@
               ]
             },
             "id": "8694f886-fa3a-4398-af8c-4ed216769e7a",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Misc. Personal Data Logs\n(& Deletion Requests)",
@@ -1567,6 +1567,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1650,7 +1651,6 @@
               ]
             },
             "id": "ca188699-bc84-4f5f-a0cd-1fb31a7027c1",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "Login DB",
@@ -1687,6 +1687,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1770,7 +1771,6 @@
               ]
             },
             "id": "fbad0ab6-e17d-43a8-9bcd-8fdef1badf42",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "Communications \nPages",
@@ -1806,6 +1806,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1889,7 +1890,6 @@
               ]
             },
             "id": "911a9408-7a17-4e3a-a6bf-e00ad4bbab97",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "Login \nPages",
@@ -1925,6 +1925,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2008,7 +2009,6 @@
               ]
             },
             "id": "c7c707e3-63fe-4216-9919-4dc9380d0bd6",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "User Settings\n Pages",
@@ -2044,6 +2044,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2127,7 +2128,6 @@
               ]
             },
             "id": "c2fe2a32-600f-4ed1-9b3c-6f5b032e57eb",
-            "zIndex": 17,
             "data": {
               "type": "tm.Process",
               "name": "Ticket Purchasing\nPages",
@@ -2140,6 +2140,245 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 572.5,
+              "y": 120
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Vendors"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "825cf90d-2078-42aa-aaa3-4de5e7f9a732"
+                },
+                {
+                  "group": "right",
+                  "id": "7418b53a-8087-4e07-9969-64875eda82c8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e64b476d-02e4-4a8b-8b39-0d1197a7989a"
+                },
+                {
+                  "group": "left",
+                  "id": "52d313ff-db59-4b8e-9aac-8f14deb30e77"
+                }
+              ]
+            },
+            "id": "6892a041-449d-4da0-bc98-edc1f48c6bc6",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Vendors",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 404,
+              "y": 110
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Public Wi-Fi"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "825cf90d-2078-42aa-aaa3-4de5e7f9a732"
+                },
+                {
+                  "group": "right",
+                  "id": "7418b53a-8087-4e07-9969-64875eda82c8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e64b476d-02e4-4a8b-8b39-0d1197a7989a"
+                },
+                {
+                  "group": "left",
+                  "id": "52d313ff-db59-4b8e-9aac-8f14deb30e77"
+                }
+              ]
+            },
+            "id": "ea48d6d2-8a09-48a6-9bbe-dba995367b73",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Public Wi-Fi",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
