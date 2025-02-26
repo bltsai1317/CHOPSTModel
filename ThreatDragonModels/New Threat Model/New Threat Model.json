@@ -19,8 +19,112 @@
         "cells": [
           {
             "position": {
-              "x": 180,
-              "y": 35
+              "x": 287.5,
+              "y": 450
+            },
+            "size": {
+              "width": 210,
+              "height": 100
+            },
+            "attrs": {
+              "label": {
+                "text": ""
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "a3b84af7-bc8a-495c-9964-d9ea1f12329f",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1175,
+              "y": 480
+            },
+            "size": {
+              "width": 170,
+              "height": 110
+            },
+            "attrs": {
+              "label": {
+                "text": ""
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "97ec7e9a-ad33-4ba7-9688-6bf94ade1233",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -270,
+              "y": 470
+            },
+            "size": {
+              "width": 180,
+              "height": 100
+            },
+            "attrs": {
+              "label": {
+                "text": ""
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "d6734288-900b-4412-8072-f80de2eb82d9",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -255,
+              "y": 285
+            },
+            "size": {
+              "width": 150,
+              "height": 120
+            },
+            "attrs": {
+              "label": {
+                "text": ""
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "3f708566-f5ba-441f-9352-cadfddaab36c",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 80,
+              "y": 180
             },
             "size": {
               "width": 112.5,
@@ -606,8 +710,8 @@
           },
           {
             "position": {
-              "x": 272.5,
-              "y": 400
+              "x": 332.5,
+              "y": 480
             },
             "size": {
               "width": 120,
@@ -729,8 +833,8 @@
           },
           {
             "position": {
-              "x": -130,
-              "y": 400
+              "x": -260,
+              "y": 490
             },
             "size": {
               "width": 160,
@@ -738,7 +842,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Misc. Personal Data Logs\n(& Deletion Requests)"
+                "text": "Misc. Personal Data Logs,\nData Privacy Settings,\n(& Deletion Requests)"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -837,7 +941,7 @@
             "id": "8694f886-fa3a-4398-af8c-4ed216769e7a",
             "data": {
               "type": "tm.Store",
-              "name": "Misc. Personal Data Logs\n(& Deletion Requests)",
+              "name": "Misc. Personal Data Logs,\nData Privacy Settings,\n(& Deletion Requests)",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -849,70 +953,6 @@
               "storesInventory": false,
               "threats": []
             }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Trust Boundary",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "68a183da-9e68-415e-9623-2d4e70064ab5",
-            "source": {
-              "x": -210,
-              "y": 310
-            },
-            "target": {
-              "x": 220,
-              "y": 510
-            },
-            "vertices": [
-              {
-                "x": 60,
-                "y": 370
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -1068,8 +1108,8 @@
             },
             "vertices": [
               {
-                "x": 640,
-                "y": 460
+                "x": 610,
+                "y": 490
               }
             ]
           },
@@ -1104,7 +1144,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Accept/Deny Login\n",
+                    "text": "Update User Data Settings",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1152,86 +1192,6 @@
               {
                 "x": 790,
                 "y": 480
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Trust Boundary",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "06aabc73-c929-4ce6-9e50-0ae45d6954b3",
-            "source": {
-              "x": -190,
-              "y": 160
-            },
-            "target": {
-              "x": -200,
-              "y": 140
-            },
-            "vertices": [
-              {
-                "x": -170,
-                "y": 290
-              },
-              {
-                "x": 80,
-                "y": 320
-              },
-              {
-                "x": 120,
-                "y": 250
-              },
-              {
-                "x": 120,
-                "y": 200
-              },
-              {
-                "x": 40,
-                "y": 140
               }
             ]
           },
@@ -1393,8 +1353,12 @@
                 "y": 450
               },
               {
-                "x": 780,
-                "y": 500
+                "x": 670,
+                "y": 280
+              },
+              {
+                "x": 490,
+                "y": 570
               }
             ]
           },
@@ -1494,7 +1458,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Trust Boundary",
+                    "text": "",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1518,79 +1482,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "9c7cb433-9974-4e52-8924-2148153602bf",
-            "source": {
-              "x": 1160,
-              "y": 620
-            },
-            "target": {
-              "x": 1390,
-              "y": 420
-            },
-            "vertices": [
-              {
-                "x": 1160,
-                "y": 540
-              },
-              {
-                "x": 1190,
-                "y": 470
-              },
-              {
-                "x": 1390,
-                "y": 470
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Trust Boundary",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -1618,6 +1510,83 @@
                 "y": 620
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Update User Data Settings",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update User Data Settings",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "456e86a1-7ee6-45a5-a7d0-ef5c9c58abc5",
+            "source": {
+              "cell": "c7c707e3-63fe-4216-9919-4dc9380d0bd6",
+              "port": "c5598f3c-897a-4d33-8e2e-c36c5f3eb3f3"
+            },
+            "target": {
+              "cell": "8694f886-fa3a-4398-af8c-4ed216769e7a",
+              "port": "ac6f35ba-9354-45ea-b02a-9a2120bbf6f7"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -1864,7 +1833,7 @@
           {
             "position": {
               "x": 645,
-              "y": 320
+              "y": 370
             },
             "size": {
               "width": 90,
@@ -1982,8 +1951,8 @@
           },
           {
             "position": {
-              "x": -80.00000000000004,
-              "y": 190
+              "x": -230,
+              "y": 300
             },
             "size": {
               "width": 100,
