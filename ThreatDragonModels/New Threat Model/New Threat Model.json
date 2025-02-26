@@ -127,7 +127,7 @@
               "y": 555
             },
             "size": {
-              "width": 170,
+              "width": 320,
               "height": 90
             },
             "attrs": {
@@ -138,6 +138,32 @@
             "visible": true,
             "shape": "trust-boundary-box",
             "id": "2326a9b8-fd89-4ba7-9ef1-d020df0e7487",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 970,
+              "y": 550
+            },
+            "size": {
+              "width": 160,
+              "height": 100
+            },
+            "attrs": {
+              "label": {
+                "text": ""
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "fa0b20ab-96aa-4f59-9844-47d50cc7a06f",
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
@@ -1216,8 +1242,12 @@
             },
             "vertices": [
               {
-                "x": 790,
-                "y": 480
+                "x": 720,
+                "y": 550
+              },
+              {
+                "x": 750,
+                "y": 510
               }
             ]
           },
@@ -1786,7 +1816,7 @@
           },
           {
             "position": {
-              "x": 645,
+              "x": 630,
               "y": 370
             },
             "size": {
@@ -2613,7 +2643,7 @@
           },
           {
             "position": {
-              "x": 928,
+              "x": 988,
               "y": 570
             },
             "size": {
@@ -2736,8 +2766,8 @@
           },
           {
             "position": {
-              "x": 909,
-              "y": 480
+              "x": 785,
+              "y": 570
             },
             "size": {
               "width": 120,
