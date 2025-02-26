@@ -33,8 +33,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "a3b84af7-bc8a-495c-9964-d9ea1f12329f",
             "zIndex": -1,
+            "id": "a3b84af7-bc8a-495c-9964-d9ea1f12329f",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
@@ -59,8 +59,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "97ec7e9a-ad33-4ba7-9688-6bf94ade1233",
             "zIndex": -1,
+            "id": "97ec7e9a-ad33-4ba7-9688-6bf94ade1233",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
@@ -85,8 +85,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "d6734288-900b-4412-8072-f80de2eb82d9",
             "zIndex": -1,
+            "id": "d6734288-900b-4412-8072-f80de2eb82d9",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
@@ -111,8 +111,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "3f708566-f5ba-441f-9352-cadfddaab36c",
             "zIndex": -1,
+            "id": "3f708566-f5ba-441f-9352-cadfddaab36c",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
@@ -137,8 +137,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "2326a9b8-fd89-4ba7-9ef1-d020df0e7487",
             "zIndex": -1,
+            "id": "2326a9b8-fd89-4ba7-9ef1-d020df0e7487",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
@@ -163,8 +163,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "fa0b20ab-96aa-4f59-9844-47d50cc7a06f",
             "zIndex": -1,
+            "id": "fa0b20ab-96aa-4f59-9844-47d50cc7a06f",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
@@ -1627,7 +1627,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Encryption of \nuser traffic",
+              "name": "User sends traffic/info\nthrough Wi-Fi",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1638,14 +1638,14 @@
               "protocol": "",
               "threats": []
             },
-            "id": "4e7e8939-d01c-4969-8aa1-8d86b32c3aa6",
+            "id": "ac047b70-b333-4c51-ad4b-26c9575dffba",
             "source": {
-              "cell": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
-              "port": "9149648c-48cf-4470-9db5-99f0a241df25"
+              "cell": "f1e0af62-e999-4668-a5cc-8879fa96d014",
+              "port": "10c18050-5110-41dd-ad96-3a249b1ea0da"
             },
             "target": {
-              "cell": "ea48d6d2-8a09-48a6-9bbe-dba995367b73",
-              "port": "52d313ff-db59-4b8e-9aac-8f14deb30e77"
+              "cell": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
+              "port": "22a859e1-02e6-4d01-831c-79170d9cd426"
             },
             "vertices": []
           },
@@ -1680,7 +1680,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Click login\n page",
+                    "text": "Non-Blacklisted\nTraffic Passes",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1704,7 +1704,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User sends traffic/info\nthrough Wi-Fi",
+              "name": "Data passed \nto firewall",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1715,16 +1715,98 @@
               "protocol": "",
               "threats": []
             },
-            "id": "ac047b70-b333-4c51-ad4b-26c9575dffba",
+            "id": "9fa76daa-6be5-42c1-ade2-c8ab3c563d57",
             "source": {
-              "cell": "f1e0af62-e999-4668-a5cc-8879fa96d014",
-              "port": "10c18050-5110-41dd-ad96-3a249b1ea0da"
+              "cell": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
+              "port": "3bcc23e7-a7bb-4292-89c2-79b868b5524b"
             },
             "target": {
-              "cell": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
+              "cell": "036096b0-6715-43fb-bddb-0ba33f5b0319",
               "port": "22a859e1-02e6-4d01-831c-79170d9cd426"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Non-Blacklisted\nTraffic Passes",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Non-Blacklisted\nTraffic Passes",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "19efa0f4-53fe-4e94-96f7-cbb8cf555332",
+            "source": {
+              "cell": "036096b0-6715-43fb-bddb-0ba33f5b0319",
+              "port": "9149648c-48cf-4470-9db5-99f0a241df25"
+            },
+            "target": {
+              "cell": "ea48d6d2-8a09-48a6-9bbe-dba995367b73",
+              "port": "52d313ff-db59-4b8e-9aac-8f14deb30e77"
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": 200
+              }
+            ]
           },
           {
             "position": {
@@ -2346,6 +2428,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -2429,7 +2512,6 @@
               ]
             },
             "id": "6892a041-449d-4da0-bc98-edc1f48c6bc6",
-            "zIndex": 18,
             "data": {
               "type": "tm.Actor",
               "name": "Vendors",
@@ -2443,8 +2525,8 @@
           },
           {
             "position": {
-              "x": 437.5,
-              "y": 95
+              "x": 551.7499999999998,
+              "y": 180
             },
             "size": {
               "width": 112.5,
@@ -2462,6 +2544,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -2545,7 +2628,6 @@
               ]
             },
             "id": "ea48d6d2-8a09-48a6-9bbe-dba995367b73",
-            "zIndex": 19,
             "data": {
               "type": "tm.Actor",
               "name": "Public Wi-Fi",
@@ -2578,6 +2660,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -2661,7 +2744,6 @@
               ]
             },
             "id": "e63ac138-46dd-4a53-bcee-273c9d6b6a81",
-            "zIndex": 20,
             "data": {
               "type": "tm.Process",
               "name": "Vendor ad\npages",
@@ -2697,6 +2779,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -2780,7 +2863,6 @@
               ]
             },
             "id": "4ee81048-78ae-4f36-b14f-7ee168072b19",
-            "zIndex": 21,
             "data": {
               "type": "tm.Process",
               "name": "SW Composition\n Analysis",
@@ -2819,6 +2901,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -2902,7 +2985,6 @@
               ]
             },
             "id": "31ddcf6f-7ccd-4fd9-9791-7fb0d4f8b0e0",
-            "zIndex": 22,
             "data": {
               "type": "tm.Store",
               "name": "Vendor DB",
@@ -2942,6 +3024,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -3025,7 +3108,6 @@
               ]
             },
             "id": "df176bef-9dd0-4276-a7e7-bd175ef68d36",
-            "zIndex": 23,
             "data": {
               "type": "tm.Store",
               "name": "Privileged User DB",
@@ -3062,6 +3144,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -3145,7 +3228,6 @@
               ]
             },
             "id": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
-            "zIndex": 24,
             "data": {
               "type": "tm.Process",
               "name": "WPA3 \nEncryption",
@@ -3162,8 +3244,8 @@
           },
           {
             "position": {
-              "x": 437.99999999999983,
-              "y": 260
+              "x": 317.5,
+              "y": 155
             },
             "size": {
               "width": 100,
@@ -3181,6 +3263,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -3264,7 +3347,6 @@
               ]
             },
             "id": "036096b0-6715-43fb-bddb-0ba33f5b0319",
-            "zIndex": 25,
             "data": {
               "type": "tm.Process",
               "name": "Firewall\nfiltering",
