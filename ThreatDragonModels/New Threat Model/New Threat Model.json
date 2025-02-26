@@ -175,8 +175,8 @@
           },
           {
             "position": {
-              "x": -105,
-              "y": 90
+              "x": -270,
+              "y": 30
             },
             "size": {
               "width": 112.5,
@@ -291,8 +291,8 @@
           },
           {
             "position": {
-              "x": 735,
-              "y": 85
+              "x": 1108,
+              "y": 80
             },
             "size": {
               "width": 190,
@@ -646,8 +646,8 @@
           },
           {
             "position": {
-              "x": 960,
-              "y": 90
+              "x": 1032.5,
+              "y": 190
             },
             "size": {
               "width": 112.5,
@@ -1359,83 +1359,6 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Modify User Settings",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Modify User Settings",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "3e645f55-56a4-4edd-ad8c-77044b7ef809",
-            "source": {
-              "cell": "f1e0af62-e999-4668-a5cc-8879fa96d014",
-              "port": "d6ba94aa-7eaa-4b40-8187-410a15c68f4b"
-            },
-            "target": {
-              "cell": "c7c707e3-63fe-4216-9919-4dc9380d0bd6",
-              "port": "a04d08af-ea50-4d69-86e3-0c9e47464d47"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
                     "text": "Click login\n page",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
@@ -1603,7 +1526,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Click login\n page",
+                    "text": "User sends traffic/info\nthrough Wi-Fi\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1627,7 +1550,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User sends traffic/info\nthrough Wi-Fi",
+              "name": "User sends traffic/info\nthrough Wi-Fi\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1645,88 +1568,6 @@
             },
             "target": {
               "cell": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
-              "port": "22a859e1-02e6-4d01-831c-79170d9cd426"
-            },
-            "vertices": [
-              {
-                "x": 120,
-                "y": 120
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Access Vendor\nApplication Sites",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data passed \nto firewall",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "9fa76daa-6be5-42c1-ade2-c8ab3c563d57",
-            "source": {
-              "cell": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
-              "port": "3bcc23e7-a7bb-4292-89c2-79b868b5524b"
-            },
-            "target": {
-              "cell": "036096b0-6715-43fb-bddb-0ba33f5b0319",
               "port": "22a859e1-02e6-4d01-831c-79170d9cd426"
             },
             "vertices": []
@@ -1762,7 +1603,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Access Vendor\nApplication Sites",
+                    "text": "User sends traffic/info\nthrough Wi-Fi\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1806,12 +1647,7 @@
               "cell": "ea48d6d2-8a09-48a6-9bbe-dba995367b73",
               "port": "52d313ff-db59-4b8e-9aac-8f14deb30e77"
             },
-            "vertices": [
-              {
-                "x": 490,
-                "y": 200
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1844,7 +1680,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Access Vendor\nApplication Sites",
+                    "text": "User sends traffic/info\nthrough Wi-Fi\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1921,7 +1757,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Access Vendor\nApplication Sites",
+                    "text": "User sends traffic/info\nthrough Wi-Fi\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1998,7 +1834,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Access Vendor\nApplication Sites",
+                    "text": "User sends traffic/info\nthrough Wi-Fi\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2046,6 +1882,165 @@
               {
                 "x": 280,
                 "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "User sends traffic/info\nthrough Wi-Fi\n",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data passed \nto firewall",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "9fa76daa-6be5-42c1-ade2-c8ab3c563d57",
+            "source": {
+              "cell": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
+              "port": "9149648c-48cf-4470-9db5-99f0a241df25"
+            },
+            "target": {
+              "cell": "036096b0-6715-43fb-bddb-0ba33f5b0319",
+              "port": "22a859e1-02e6-4d01-831c-79170d9cd426"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Modify User Settings",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Modify User Settings",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "3e645f55-56a4-4edd-ad8c-77044b7ef809",
+            "source": {
+              "cell": "ea48d6d2-8a09-48a6-9bbe-dba995367b73",
+              "port": "e64b476d-02e4-4a8b-8b39-0d1197a7989a"
+            },
+            "target": {
+              "cell": "c7c707e3-63fe-4216-9919-4dc9380d0bd6",
+              "port": "a04d08af-ea50-4d69-86e3-0c9e47464d47"
+            },
+            "vertices": [
+              {
+                "x": -100,
+                "y": 140
               }
             ]
           },
@@ -2650,8 +2645,8 @@
           },
           {
             "position": {
-              "x": 582.5,
-              "y": 95
+              "x": 1032.5,
+              "y": 300
             },
             "size": {
               "width": 112.5,
@@ -2766,8 +2761,8 @@
           },
           {
             "position": {
-              "x": 551.7499999999998,
-              "y": 180
+              "x": 672.5,
+              "y": 40
             },
             "size": {
               "width": 112.5,
@@ -2882,8 +2877,8 @@
           },
           {
             "position": {
-              "x": 105,
-              "y": 380
+              "x": 65,
+              "y": 305
             },
             "size": {
               "width": 80,
@@ -3366,8 +3361,8 @@
           },
           {
             "position": {
-              "x": 197.5,
-              "y": 85
+              "x": 55,
+              "y": 20
             },
             "size": {
               "width": 100,
@@ -3485,8 +3480,8 @@
           },
           {
             "position": {
-              "x": 317.5,
-              "y": 155
+              "x": 407.5,
+              "y": 15
             },
             "size": {
               "width": 100,
@@ -3494,7 +3489,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Firewall\nfiltering"
+                "text": "IP\nfiltering"
               },
               "body": {
                 "stroke": "#333333",
@@ -3590,7 +3585,7 @@
             "id": "036096b0-6715-43fb-bddb-0ba33f5b0319",
             "data": {
               "type": "tm.Process",
-              "name": "Firewall\nfiltering",
+              "name": "IP\nfiltering",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
