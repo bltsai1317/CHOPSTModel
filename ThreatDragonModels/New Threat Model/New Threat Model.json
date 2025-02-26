@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -100,
-              "y": 100
+              "x": -50,
+              "y": 35
             },
             "size": {
               "width": 112.5,
@@ -135,8 +135,8 @@
           },
           {
             "position": {
-              "x": 410,
-              "y": 15
+              "x": 630,
+              "y": 30
             },
             "size": {
               "width": 190,
@@ -251,8 +251,8 @@
           },
           {
             "position": {
-              "x": 80,
-              "y": 20
+              "x": 380,
+              "y": 35
             },
             "size": {
               "width": 160,
@@ -367,7 +367,7 @@
           },
           {
             "position": {
-              "x": 540,
+              "x": 990,
               "y": 350
             },
             "size": {
@@ -490,8 +490,8 @@
           },
           {
             "position": {
-              "x": 685,
-              "y": 110
+              "x": 970,
+              "y": 35
             },
             "size": {
               "width": 112.5,
@@ -606,7 +606,7 @@
           },
           {
             "position": {
-              "x": 36.25,
+              "x": 292.5,
               "y": 350
             },
             "size": {
@@ -729,8 +729,8 @@
           },
           {
             "position": {
-              "x": 193.75,
-              "y": 350
+              "x": -130,
+              "y": 400
             },
             "size": {
               "width": 160,
@@ -852,8 +852,8 @@
           },
           {
             "position": {
-              "x": 272.5,
-              "y": 130
+              "x": 470,
+              "y": 210
             },
             "size": {
               "width": 120,
@@ -971,8 +971,8 @@
           },
           {
             "position": {
-              "x": 40,
-              "y": 250
+              "x": 220,
+              "y": 220
             },
             "size": {
               "width": 112.5,
@@ -1087,8 +1087,8 @@
           },
           {
             "position": {
-              "x": 540,
-              "y": 250
+              "x": 990,
+              "y": 220
             },
             "size": {
               "width": 120,
@@ -1202,9 +1202,213 @@
             }
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Trust Boundary",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "9c7cb433-9974-4e52-8924-2148153602bf",
+            "source": {
+              "x": 300,
+              "y": 510
+            },
+            "target": {
+              "x": 1260,
+              "y": 330
+            },
+            "vertices": [
+              {
+                "x": 210,
+                "y": 460
+              },
+              {
+                "x": 210,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Trust Boundary",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "06aabc73-c929-4ce6-9e50-0ae45d6954b3",
+            "source": {
+              "x": -190,
+              "y": 160
+            },
+            "target": {
+              "x": 150,
+              "y": 10
+            },
+            "vertices": [
+              {
+                "x": -170,
+                "y": 290
+              },
+              {
+                "x": 80,
+                "y": 320
+              },
+              {
+                "x": 120,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Trust Boundary",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "68a183da-9e68-415e-9623-2d4e70064ab5",
+            "source": {
+              "x": -210,
+              "y": 310
+            },
+            "target": {
+              "x": 220,
+              "y": 510
+            },
+            "vertices": [
+              {
+                "x": 60,
+                "y": 370
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 217.5,
-              "y": 250
+              "x": -40,
+              "y": 220
             },
             "size": {
               "width": 112.5,
@@ -1319,8 +1523,8 @@
           },
           {
             "position": {
-              "x": 387.5,
-              "y": 250
+              "x": 688.75,
+              "y": 220
             },
             "size": {
               "width": 112.5,
@@ -1435,7 +1639,7 @@
           },
           {
             "position": {
-              "x": 392.5,
+              "x": 685,
               "y": 350
             },
             "size": {
