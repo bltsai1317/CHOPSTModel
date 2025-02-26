@@ -75,7 +75,7 @@
               "y": 470
             },
             "size": {
-              "width": 180,
+              "width": 200,
               "height": 100
             },
             "attrs": {
@@ -175,8 +175,8 @@
           },
           {
             "position": {
-              "x": 80,
-              "y": 180
+              "x": -50,
+              "y": 90
             },
             "size": {
               "width": 112.5,
@@ -291,8 +291,8 @@
           },
           {
             "position": {
-              "x": 630,
-              "y": 30
+              "x": 735,
+              "y": 85
             },
             "size": {
               "width": 190,
@@ -407,8 +407,8 @@
           },
           {
             "position": {
-              "x": 380,
-              "y": 35
+              "x": 765,
+              "y": 240
             },
             "size": {
               "width": 160,
@@ -646,8 +646,8 @@
           },
           {
             "position": {
-              "x": 970,
-              "y": 35
+              "x": 960,
+              "y": 90
             },
             "size": {
               "width": 112.5,
@@ -1196,7 +1196,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Update User Data Settings",
+                    "text": "User sends traffic/info\nthrough Wi-Fi",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1436,7 +1436,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Update User Data Settings",
+                    "text": "User sends traffic/info\nthrough Wi-Fi",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1551,7 +1551,7 @@
             "id": "ca0cd8e1-a0d5-42e3-be7c-1409721baf6a",
             "source": {
               "cell": "c2fe2a32-600f-4ed1-9b3c-6f5b032e57eb",
-              "port": "9de2d875-d48a-4fff-b724-732986f0f03b"
+              "port": "c3646f31-9203-4152-88ad-653113d9e636"
             },
             "target": {
               "cell": "8694f886-fa3a-4398-af8c-4ed216769e7a",
@@ -1559,18 +1559,172 @@
             },
             "vertices": [
               {
-                "x": 1050,
-                "y": 450
+                "x": 1270,
+                "y": 650
               },
               {
-                "x": 670,
-                "y": 280
+                "x": 560,
+                "y": 690
               },
               {
-                "x": 350,
-                "y": 330
+                "x": 230,
+                "y": 690
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "User sends traffic/info\nthrough Wi-Fi",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Encryption of \nuser traffic",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "4e7e8939-d01c-4969-8aa1-8d86b32c3aa6",
+            "source": {
+              "cell": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
+              "port": "9149648c-48cf-4470-9db5-99f0a241df25"
+            },
+            "target": {
+              "cell": "ea48d6d2-8a09-48a6-9bbe-dba995367b73",
+              "port": "52d313ff-db59-4b8e-9aac-8f14deb30e77"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "User sends traffic/info\nthrough Wi-Fi",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User sends traffic/info\nthrough Wi-Fi",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "ac047b70-b333-4c51-ad4b-26c9575dffba",
+            "source": {
+              "cell": "f1e0af62-e999-4668-a5cc-8879fa96d014",
+              "port": "10c18050-5110-41dd-ad96-3a249b1ea0da"
+            },
+            "target": {
+              "cell": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
+              "port": "22a859e1-02e6-4d01-831c-79170d9cd426"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -2173,8 +2327,8 @@
           },
           {
             "position": {
-              "x": 572.5,
-              "y": 120
+              "x": 582.5,
+              "y": 95
             },
             "size": {
               "width": 112.5,
@@ -2289,8 +2443,8 @@
           },
           {
             "position": {
-              "x": 404,
-              "y": 110
+              "x": 437.5,
+              "y": 95
             },
             "size": {
               "width": 112.5,
@@ -2884,6 +3038,125 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 197.5,
+              "y": 85
+            },
+            "size": {
+              "width": 100,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "WPA3 \nEncryption"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "90e49bb9-2242-4681-a009-54c33e419c26"
+                },
+                {
+                  "group": "right",
+                  "id": "9149648c-48cf-4470-9db5-99f0a241df25"
+                },
+                {
+                  "group": "bottom",
+                  "id": "3bcc23e7-a7bb-4292-89c2-79b868b5524b"
+                },
+                {
+                  "group": "left",
+                  "id": "22a859e1-02e6-4d01-831c-79170d9cd426"
+                }
+              ]
+            },
+            "id": "dc63ff4c-38a5-4bf6-abf9-5f436d34c36f",
+            "zIndex": 24,
+            "data": {
+              "type": "tm.Process",
+              "name": "WPA3 \nEncryption",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
               "threats": []
             }
           }
