@@ -45,8 +45,8 @@
           },
           {
             "position": {
-              "x": 1175,
-              "y": 480
+              "x": 652.5,
+              "y": 515
             },
             "size": {
               "width": 170,
@@ -123,8 +123,8 @@
           },
           {
             "position": {
-              "x": 605,
-              "y": 555
+              "x": 855,
+              "y": 550
             },
             "size": {
               "width": 320,
@@ -149,8 +149,8 @@
           },
           {
             "position": {
-              "x": 970,
-              "y": 550
+              "x": -250,
+              "y": 610
             },
             "size": {
               "width": 160,
@@ -407,124 +407,8 @@
           },
           {
             "position": {
-              "x": 765,
-              "y": 240
-            },
-            "size": {
-              "width": 160,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Physical Security Team"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 3,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "98705396-a7ff-4065-8214-0562d434525c"
-                },
-                {
-                  "group": "right",
-                  "id": "10c18050-5110-41dd-ad96-3a249b1ea0da"
-                },
-                {
-                  "group": "bottom",
-                  "id": "fac968e2-8342-4897-9718-ac3774017639"
-                },
-                {
-                  "group": "left",
-                  "id": "d6ba94aa-7eaa-4b40-8187-410a15c68f4b"
-                }
-              ]
-            },
-            "id": "4f2016be-46d3-4b7e-a158-f21ba6854224",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Physical Security Team",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 1200,
-              "y": 490
+              "x": 677.5,
+              "y": 540
             },
             "size": {
               "width": 120,
@@ -646,8 +530,8 @@
           },
           {
             "position": {
-              "x": 1032.5,
-              "y": 190
+              "x": 1130,
+              "y": 180
             },
             "size": {
               "width": 112.5,
@@ -1037,7 +921,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Store log of\naccess/denial to site",
+                    "text": "Vendor DB\nquery result",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1061,89 +945,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Storing Logs\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "140d2921-b411-4f36-a6e5-ee8ebfa112c0",
-            "source": {
-              "cell": "fbad0ab6-e17d-43a8-9bcd-8fdef1badf42",
-              "port": "c5598f3c-897a-4d33-8e2e-c36c5f3eb3f3"
-            },
-            "target": {
-              "cell": "a1751410-bc8f-4cc4-9926-917b5aeca7bc",
-              "port": "ac6f35ba-9354-45ea-b02a-9a2120bbf6f7"
-            },
-            "vertices": [
-              {
-                "x": 200,
-                "y": 410
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Modify User Settings",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Login Info\n Query",
+              "name": "Login Info\n DB Query",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1165,8 +967,12 @@
             },
             "vertices": [
               {
-                "x": 610,
-                "y": 490
+                "x": 970,
+                "y": 380
+              },
+              {
+                "x": 870,
+                "y": 450
               }
             ]
           },
@@ -1247,12 +1053,12 @@
             },
             "vertices": [
               {
-                "x": 720,
-                "y": 550
+                "x": 1120,
+                "y": 400
               },
               {
-                "x": 750,
-                "y": 510
+                "x": 1100,
+                "y": 340
               }
             ]
           },
@@ -1441,97 +1247,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Modify User Settings",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Store that card info was registered/stored",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "ca0cd8e1-a0d5-42e3-be7c-1409721baf6a",
-            "source": {
-              "cell": "c2fe2a32-600f-4ed1-9b3c-6f5b032e57eb",
-              "port": "c3646f31-9203-4152-88ad-653113d9e636"
-            },
-            "target": {
-              "cell": "8694f886-fa3a-4398-af8c-4ed216769e7a",
-              "port": "bc65f2e0-4c95-4366-9d82-c53b840a5b71"
-            },
-            "vertices": [
-              {
-                "x": 1270,
-                "y": 650
-              },
-              {
-                "x": 560,
-                "y": 690
-              },
-              {
-                "x": 230,
-                "y": 690
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Store log of\naccess/denial to site",
+                    "text": "Vendor DB\nquery result",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1608,7 +1324,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Store log of\naccess/denial to site",
+                    "text": "Vendor DB\nquery result",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1685,7 +1401,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Store log of\naccess/denial to site",
+                    "text": "Vendor DB\nquery result",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1762,89 +1478,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Store log of\naccess/denial to site",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Access App\nCommunications Page",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "bc6a48f8-1bd3-4b83-aa3d-36fd8c06208c",
-            "source": {
-              "cell": "ea48d6d2-8a09-48a6-9bbe-dba995367b73",
-              "port": "e64b476d-02e4-4a8b-8b39-0d1197a7989a"
-            },
-            "target": {
-              "cell": "fbad0ab6-e17d-43a8-9bcd-8fdef1badf42",
-              "port": "a04d08af-ea50-4d69-86e3-0c9e47464d47"
-            },
-            "vertices": [
-              {
-                "x": 400,
-                "y": 220
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Store log of\naccess/denial to site",
+                    "text": "Vendor DB\nquery result",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2003,89 +1637,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Store log of\naccess/denial to site",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Access Vendor\nApplication Sites",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "e7e2a478-f208-414b-8bfc-d389e95460bc",
-            "source": {
-              "cell": "ea48d6d2-8a09-48a6-9bbe-dba995367b73",
-              "port": "e64b476d-02e4-4a8b-8b39-0d1197a7989a"
-            },
-            "target": {
-              "cell": "11d82d27-8ade-47ed-b351-3c1ce112aae6",
-              "port": "f9b73c82-babf-4241-a181-13a57776d30e"
-            },
-            "vertices": [
-              {
-                "x": 480,
-                "y": 140
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Store log of\naccess/denial to site",
+                    "text": "Vendor DB\nquery result",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2167,7 +1719,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Store log of\naccess/denial to site",
+                    "text": "Vendor DB\nquery result",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2219,9 +1771,654 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Vendor DB\nquery result",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store history of chat\ntraffic logs",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "aeb1bdbf-105c-462a-bb02-3ba5f0ad38b1",
+            "source": {
+              "cell": "fbad0ab6-e17d-43a8-9bcd-8fdef1badf42",
+              "port": "c5598f3c-897a-4d33-8e2e-c36c5f3eb3f3"
+            },
+            "target": {
+              "cell": "07157d3a-f989-4a9c-9a66-353915e590be",
+              "port": "7110c88b-fe75-4b8a-9ce0-204c28437855"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Vendor DB\nquery result",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store chat content\nto logs",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "4d482489-60bd-4436-bf1c-5e1a96b2b459",
+            "source": {
+              "cell": "fbad0ab6-e17d-43a8-9bcd-8fdef1badf42",
+              "port": "c5598f3c-897a-4d33-8e2e-c36c5f3eb3f3"
+            },
+            "target": {
+              "cell": "a1751410-bc8f-4cc4-9926-917b5aeca7bc",
+              "port": "ac6f35ba-9354-45ea-b02a-9a2120bbf6f7"
+            },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 420
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Vendor DB\nquery result",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Successful Login",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "6bbaae69-b5b3-4455-9dd8-82a3f72a8ad1",
+            "source": {
+              "cell": "911a9408-7a17-4e3a-a6bf-e00ad4bbab97",
+              "port": "9de2d875-d48a-4fff-b724-732986f0f03b"
+            },
+            "target": {
+              "cell": "59c7759e-d82d-402d-87c4-86b24e4d507b",
+              "port": "f9b73c82-babf-4241-a181-13a57776d30e"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Vendor DB\nquery result",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Access App\nCommunications Page",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "bc6a48f8-1bd3-4b83-aa3d-36fd8c06208c",
+            "source": {
+              "cell": "59c7759e-d82d-402d-87c4-86b24e4d507b",
+              "port": "cf2b4516-4a3d-4094-8ec5-f6aced94a6eb"
+            },
+            "target": {
+              "cell": "fbad0ab6-e17d-43a8-9bcd-8fdef1badf42",
+              "port": "c3646f31-9203-4152-88ad-653113d9e636"
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Vendor DB\nquery result",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Access Vendor\nApplication Sites",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "e7e2a478-f208-414b-8bfc-d389e95460bc",
+            "source": {
+              "cell": "59c7759e-d82d-402d-87c4-86b24e4d507b",
+              "port": "112394d2-026b-4341-92c0-892b4f05a7ae"
+            },
+            "target": {
+              "cell": "11d82d27-8ade-47ed-b351-3c1ce112aae6",
+              "port": "f9b73c82-babf-4241-a181-13a57776d30e"
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Vendor DB\nquery result",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verify Site \nIs Vendor's",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "821bddf6-05c6-4ad4-8384-b824e3a5edfc",
+            "source": {
+              "cell": "11d82d27-8ade-47ed-b351-3c1ce112aae6",
+              "port": "cf2b4516-4a3d-4094-8ec5-f6aced94a6eb"
+            },
+            "target": {
+              "cell": "31ddcf6f-7ccd-4fd9-9791-7fb0d4f8b0e0",
+              "port": "a4ba3588-fd15-4fbb-9da4-cf20e6562dd1"
+            },
+            "vertices": [
+              {
+                "x": -65,
+                "y": 780
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Vendor DB\nquery result",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Vendor DB\nquery result",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "4f997b35-1bf6-499d-9d0b-3d6f163c082a",
+            "source": {
+              "cell": "31ddcf6f-7ccd-4fd9-9791-7fb0d4f8b0e0",
+              "port": "a4ba3588-fd15-4fbb-9da4-cf20e6562dd1"
+            },
+            "target": {
+              "cell": "11d82d27-8ade-47ed-b351-3c1ce112aae6",
+              "port": "cf2b4516-4a3d-4094-8ec5-f6aced94a6eb"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Modify User Settings",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store that card info was registered/stored",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "ca0cd8e1-a0d5-42e3-be7c-1409721baf6a",
+            "source": {
+              "cell": "c2fe2a32-600f-4ed1-9b3c-6f5b032e57eb",
+              "port": "c5598f3c-897a-4d33-8e2e-c36c5f3eb3f3"
+            },
+            "target": {
+              "cell": "8694f886-fa3a-4398-af8c-4ed216769e7a",
+              "port": "bc65f2e0-4c95-4366-9d82-c53b840a5b71"
+            },
+            "vertices": [
+              {
+                "x": 560,
+                "y": 690
+              },
+              {
+                "x": 230,
+                "y": 690
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 630,
-              "y": 570
+              "x": 871.75,
+              "y": 565
             },
             "size": {
               "width": 120,
@@ -2343,8 +2540,8 @@
           },
           {
             "position": {
-              "x": 100,
-              "y": 260
+              "x": 80,
+              "y": 210
             },
             "size": {
               "width": 140,
@@ -2462,8 +2659,8 @@
           },
           {
             "position": {
-              "x": 630,
-              "y": 370
+              "x": 1005,
+              "y": 225
             },
             "size": {
               "width": 90,
@@ -2700,8 +2897,8 @@
           },
           {
             "position": {
-              "x": 1200,
-              "y": 260
+              "x": 535,
+              "y": 350
             },
             "size": {
               "width": 120,
@@ -2819,8 +3016,8 @@
           },
           {
             "position": {
-              "x": 1032.5,
-              "y": 300
+              "x": 710,
+              "y": 130
             },
             "size": {
               "width": 112.5,
@@ -2935,8 +3132,8 @@
           },
           {
             "position": {
-              "x": 672.5,
-              "y": 40
+              "x": 991.75,
+              "y": 30
             },
             "size": {
               "width": 112.5,
@@ -3170,8 +3367,8 @@
           },
           {
             "position": {
-              "x": 988,
-              "y": 570
+              "x": -230,
+              "y": 630
             },
             "size": {
               "width": 120,
@@ -3293,8 +3490,8 @@
           },
           {
             "position": {
-              "x": 785,
-              "y": 570
+              "x": 1035,
+              "y": 565
             },
             "size": {
               "width": 120,
@@ -3891,6 +4088,125 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 545,
+              "y": 225
+            },
+            "size": {
+              "width": 100,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "App Home\nPage"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "112394d2-026b-4341-92c0-892b4f05a7ae"
+                },
+                {
+                  "group": "right",
+                  "id": "f9b73c82-babf-4241-a181-13a57776d30e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "487e34b8-9650-43ce-8e5b-9e4101964a42"
+                },
+                {
+                  "group": "left",
+                  "id": "cf2b4516-4a3d-4094-8ec5-f6aced94a6eb"
+                }
+              ]
+            },
+            "id": "59c7759e-d82d-402d-87c4-86b24e4d507b",
+            "zIndex": 28,
+            "data": {
+              "type": "tm.Process",
+              "name": "App Home\nPage",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
               "threats": []
             }
           }
