@@ -38,7 +38,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
-              "description": "",
+              "description": "For security access only",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -46,7 +46,7 @@
           {
             "position": {
               "x": 447.5,
-              "y": 705
+              "y": 710
             },
             "size": {
               "width": 170,
@@ -64,7 +64,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
-              "description": "",
+              "description": "For admin access only (security in case of emergency)",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -90,7 +90,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
-              "description": "",
+              "description": "For admin and security access only",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -116,7 +116,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
-              "description": "",
+              "description": "For user and security access only",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -168,7 +168,33 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
-              "description": "",
+              "description": "For vendor, security, and admin access only",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 781.75,
+              "y": 715
+            },
+            "size": {
+              "width": 210,
+              "height": 100
+            },
+            "attrs": {
+              "label": {
+                "text": ""
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "f4812bcc-5033-4e99-a791-c2824fb1a107",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "For admin access only",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -419,11 +445,13 @@
                 "text": "Payment Info DB"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -519,13 +547,33 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": true,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "14836883-20d7-4fbc-ac07-d8f80c4a1910",
+                  "title": "SQL Injection",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Attempting to exploit SQL language to get login info\nCould be tampering if they attempt to drop tables",
+                  "mitigation": "Input Sanitation, parameterization of inputs",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -921,7 +969,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1007,7 +1055,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1170,7 +1218,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1247,7 +1295,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1324,7 +1372,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1401,7 +1449,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1478,7 +1526,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1564,7 +1612,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1646,7 +1694,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1728,7 +1776,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1805,7 +1853,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1887,89 +1935,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Successful \nAuthentication",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "6bbaae69-b5b3-4455-9dd8-82a3f72a8ad1",
-            "source": {
-              "cell": "911a9408-7a17-4e3a-a6bf-e00ad4bbab97",
-              "port": "9de2d875-d48a-4fff-b724-732986f0f03b"
-            },
-            "target": {
-              "cell": "59c7759e-d82d-402d-87c4-86b24e4d507b",
-              "port": "f9b73c82-babf-4241-a181-13a57776d30e"
-            },
-            "vertices": [
-              {
-                "x": 780,
-                "y": 270
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2051,7 +2017,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2137,7 +2103,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2219,7 +2185,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2390,7 +2356,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2472,7 +2438,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2558,7 +2524,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2640,7 +2606,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2722,7 +2688,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2804,7 +2770,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2886,7 +2852,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2963,7 +2929,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -3040,7 +3006,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -3122,7 +3088,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -3204,7 +3170,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Successful authentication",
+                    "text": "Redirect to 2FA option\nof choice",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -3247,6 +3213,329 @@
             "target": {
               "cell": "d23d44db-4215-460c-8569-abc27ac2415a",
               "port": "112394d2-026b-4341-92c0-892b4f05a7ae"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Redirect to 2FA option\nof choice",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Create backup",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "9ea36a92-8172-4bb0-a565-e6136b6b31c0",
+            "source": {
+              "cell": "df176bef-9dd0-4276-a7e7-bd175ef68d36",
+              "port": "ef2ed730-77de-4fc3-a064-a8aa56a62b29"
+            },
+            "target": {
+              "cell": "9b2fd504-6e2c-48ee-9de6-721b29013e37",
+              "port": "0e9cc585-8ee8-435c-8302-5a4991ab1411"
+            },
+            "vertices": [
+              {
+                "x": 1095,
+                "y": 740
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Redirect to 2FA option\nof choice",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Create backup",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "84809472-d4a3-4e0b-9afd-3e2da61acb60",
+            "source": {
+              "cell": "ca188699-bc84-4f5f-a0cd-1fb31a7027c1",
+              "port": "58bb5673-765b-4f71-870b-ecd69c2ad2dc"
+            },
+            "target": {
+              "cell": "9b2fd504-6e2c-48ee-9de6-721b29013e37",
+              "port": "0e9cc585-8ee8-435c-8302-5a4991ab1411"
+            },
+            "vertices": [
+              {
+                "x": 1020,
+                "y": 710
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Redirect to 2FA option\nof choice",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Successful \nAuthentication",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "6bbaae69-b5b3-4455-9dd8-82a3f72a8ad1",
+            "source": {
+              "x": 820,
+              "y": 270
+            },
+            "target": {
+              "cell": "59c7759e-d82d-402d-87c4-86b24e4d507b",
+              "port": "f9b73c82-babf-4241-a181-13a57776d30e"
+            },
+            "vertices": [
+              {
+                "x": 780,
+                "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Redirect to 2FA option\nof choice",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Redirect to 2FA option\nof choice",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "6d03e63a-2824-49fc-bb74-6e0d8c4c6bad",
+            "source": {
+              "cell": "911a9408-7a17-4e3a-a6bf-e00ad4bbab97",
+              "port": "9de2d875-d48a-4fff-b724-732986f0f03b"
+            },
+            "target": {
+              "cell": "6274835a-1a93-4568-9a27-fcffdf025758",
+              "port": "f9b73c82-babf-4241-a181-13a57776d30e"
             },
             "vertices": []
           },
@@ -3516,7 +3805,7 @@
           },
           {
             "position": {
-              "x": 1005,
+              "x": 1075,
               "y": 225
             },
             "size": {
@@ -3528,8 +3817,8 @@
                 "text": "Login \nPages"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3625,12 +3914,47 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "1778db1c-ef30-439c-850b-feaf6c19452a",
+                  "title": "Brute Force",
+                  "status": "Open",
+                  "severity": "TBA",
+                  "type": "Elevation of privilege",
+                  "description": "Being able to log in without a ticket by stealing someone else's account info, potential access to purchasing with their credentials or impersonation",
+                  "mitigation": "Lockout system after X amount of attempts (5, perhaps)\n2FA",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "e7ac0505-d77f-47f0-b56a-90627a8912eb",
+                  "title": "Shoulder surfing",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Spoofing",
+                  "description": "Being able to log in without a ticket by stealing someone else's account info by seeing them input it or with a keylogger, potential access to purchasing with their credentials or impersonation",
+                  "mitigation": "2FA",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 1
+              }
             }
           },
           {
@@ -4236,11 +4560,13 @@
                 "text": "Vendor DB"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4336,13 +4662,33 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isSigned": false,
-              "storesCredentials": false,
+              "storesCredentials": true,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "714b66a8-f4d7-4681-9263-8dea56a4001c",
+                  "title": "SQL Injection",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Attempting to exploit SQL language to get login info\nCould be tampering if they attempt to drop tables",
+                  "mitigation": "Input Sanitation, parameterization of inputs",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -4359,11 +4705,13 @@
                 "text": "Privileged User DB"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4459,13 +4807,33 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "6e9f1cff-9427-4252-9b78-1c41ed0b407f",
+                  "title": "SQL Injection",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Attempting to exploit SQL language to get login info\nCould be tampering if they attempt to drop tables",
+                  "mitigation": "Input Sanitation, parameterization of inputs",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -5304,12 +5672,254 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": 831,
+              "y": 730
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Offsite backup/\nmirrored DB"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "7110c88b-fe75-4b8a-9ce0-204c28437855"
+                },
+                {
+                  "group": "right",
+                  "id": "0e9cc585-8ee8-435c-8302-5a4991ab1411"
+                },
+                {
+                  "group": "bottom",
+                  "id": "cd35049e-dcdd-4ce3-a8b8-abc21a2454ff"
+                },
+                {
+                  "group": "left",
+                  "id": "d47f85c9-4725-416f-92b3-52d2d35cc2d0"
+                }
+              ]
+            },
+            "id": "9b2fd504-6e2c-48ee-9de6-721b29013e37",
+            "zIndex": 31,
+            "data": {
+              "type": "tm.Store",
+              "name": "Offsite backup/\nmirrored DB",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 812,
+              "y": 240
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "2FA"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "112394d2-026b-4341-92c0-892b4f05a7ae"
+                },
+                {
+                  "group": "right",
+                  "id": "f9b73c82-babf-4241-a181-13a57776d30e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "487e34b8-9650-43ce-8e5b-9e4101964a42"
+                },
+                {
+                  "group": "left",
+                  "id": "cf2b4516-4a3d-4094-8ec5-f6aced94a6eb"
+                }
+              ]
+            },
+            "id": "6274835a-1a93-4568-9a27-fcffdf025758",
+            "zIndex": 32,
+            "data": {
+              "type": "tm.Process",
+              "name": "2FA",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 1
+    "threatTop": 6
   }
 }
