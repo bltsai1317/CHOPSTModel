@@ -175,7 +175,7 @@
           },
           {
             "position": {
-              "x": -50,
+              "x": -105,
               "y": 90
             },
             "size": {
@@ -1196,7 +1196,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User sends traffic/info\nthrough Wi-Fi",
+                    "text": "Click login\n page",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1436,7 +1436,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User sends traffic/info\nthrough Wi-Fi",
+                    "text": "Click login\n page",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1603,7 +1603,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User sends traffic/info\nthrough Wi-Fi",
+                    "text": "Click login\n page",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1680,7 +1680,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User sends traffic/info\nthrough Wi-Fi",
+                    "text": "Click login\n page",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -3149,6 +3149,125 @@
             "data": {
               "type": "tm.Process",
               "name": "WPA3 \nEncryption",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 437.99999999999983,
+              "y": 260
+            },
+            "size": {
+              "width": 100,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Firewall\nfiltering"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "90e49bb9-2242-4681-a009-54c33e419c26"
+                },
+                {
+                  "group": "right",
+                  "id": "9149648c-48cf-4470-9db5-99f0a241df25"
+                },
+                {
+                  "group": "bottom",
+                  "id": "3bcc23e7-a7bb-4292-89c2-79b868b5524b"
+                },
+                {
+                  "group": "left",
+                  "id": "22a859e1-02e6-4d01-831c-79170d9cd426"
+                }
+              ]
+            },
+            "id": "036096b0-6715-43fb-bddb-0ba33f5b0319",
+            "zIndex": 25,
+            "data": {
+              "type": "tm.Process",
+              "name": "Firewall\nfiltering",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
