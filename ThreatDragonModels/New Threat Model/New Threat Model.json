@@ -45,8 +45,8 @@
           },
           {
             "position": {
-              "x": 652.5,
-              "y": 515
+              "x": 447.5,
+              "y": 705
             },
             "size": {
               "width": 170,
@@ -291,16 +291,16 @@
           },
           {
             "position": {
-              "x": 1108,
-              "y": 80
+              "x": 277.5,
+              "y": 710
             },
             "size": {
-              "width": 190,
+              "width": 130,
               "height": 70
             },
             "attrs": {
               "text": {
-                "text": "Cybersecurity Team/Services"
+                "text": "Cybersecurity \nTeam"
               },
               "body": {
                 "stroke": "#333333",
@@ -396,7 +396,7 @@
             "id": "a19d00ed-cbf8-461d-9ed9-8708c364761b",
             "data": {
               "type": "tm.Actor",
-              "name": "Cybersecurity Team/Services",
+              "name": "Cybersecurity \nTeam",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -407,8 +407,8 @@
           },
           {
             "position": {
-              "x": 677.5,
-              "y": 540
+              "x": 472.5,
+              "y": 730
             },
             "size": {
               "width": 120,
@@ -921,7 +921,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1093,83 +1093,6 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Modify User Settings",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Store purchase info",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "330253e9-7741-4c8f-8b0a-e903bebf85fb",
-            "source": {
-              "cell": "c2fe2a32-600f-4ed1-9b3c-6f5b032e57eb",
-              "port": "c5598f3c-897a-4d33-8e2e-c36c5f3eb3f3"
-            },
-            "target": {
-              "cell": "4189a8e8-efd4-48e8-bc2a-80d273e35559",
-              "port": "ac6f35ba-9354-45ea-b02a-9a2120bbf6f7"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
                     "text": "Click login\n page",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
@@ -1247,7 +1170,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1324,7 +1247,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1401,7 +1324,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1478,7 +1401,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1637,7 +1560,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1719,7 +1642,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1801,7 +1724,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1878,7 +1801,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1960,7 +1883,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2037,7 +1960,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2119,7 +2042,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2201,7 +2124,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2283,7 +2206,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Vendor DB\nquery result",
+                    "text": "Monitor unusual\nlogin activity",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -2406,12 +2329,421 @@
             },
             "vertices": [
               {
-                "x": 560,
-                "y": 690
+                "x": 450,
+                "y": 620
               },
               {
-                "x": 230,
-                "y": 690
+                "x": 80,
+                "y": 620
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Monitor unusual\nlogin activity",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Access Ticket\nPages",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "11478967-2da5-45fa-8e26-2764fa6e65e8",
+            "source": {
+              "cell": "59c7759e-d82d-402d-87c4-86b24e4d507b",
+              "port": "cf2b4516-4a3d-4094-8ec5-f6aced94a6eb"
+            },
+            "target": {
+              "cell": "c2fe2a32-600f-4ed1-9b3c-6f5b032e57eb",
+              "port": "a04d08af-ea50-4d69-86e3-0c9e47464d47"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Monitor unusual\nlogin activity",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store purchase info\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "330253e9-7741-4c8f-8b0a-e903bebf85fb",
+            "source": {
+              "cell": "c2fe2a32-600f-4ed1-9b3c-6f5b032e57eb",
+              "port": "c5598f3c-897a-4d33-8e2e-c36c5f3eb3f3"
+            },
+            "target": {
+              "cell": "4189a8e8-efd4-48e8-bc2a-80d273e35559",
+              "port": "bc65f2e0-4c95-4366-9d82-c53b840a5b71"
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 620
+              },
+              {
+                "x": 630,
+                "y": 700
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Monitor unusual\nlogin activity",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update vendor\ninfo & ads",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "93b51f61-928f-4754-86bd-23ee854a729e",
+            "source": {
+              "cell": "6892a041-449d-4da0-bc98-edc1f48c6bc6",
+              "port": "52d313ff-db59-4b8e-9aac-8f14deb30e77"
+            },
+            "target": {
+              "cell": "31ddcf6f-7ccd-4fd9-9791-7fb0d4f8b0e0",
+              "port": "ef2ed730-77de-4fc3-a064-a8aa56a62b29"
+            },
+            "vertices": [
+              {
+                "x": -260,
+                "y": 780
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Monitor unusual\nlogin activity",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Monitor alerts\nfor unusual network \ntraffic",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "822bf146-6c89-4283-9aa5-276c1b68a3f1",
+            "source": {
+              "cell": "a19d00ed-cbf8-461d-9ed9-8708c364761b",
+              "port": "98705396-a7ff-4065-8214-0562d434525c"
+            },
+            "target": {
+              "cell": "07157d3a-f989-4a9c-9a66-353915e590be",
+              "port": "cd35049e-dcdd-4ce3-a8b8-abc21a2454ff"
+            },
+            "vertices": [
+              {
+                "x": 180,
+                "y": 680
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Monitor unusual\nlogin activity",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Monitor unusual\nlogin activity",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "38d38681-2b68-4539-913b-76e594f7e530",
+            "source": {
+              "cell": "a19d00ed-cbf8-461d-9ed9-8708c364761b",
+              "port": "98705396-a7ff-4065-8214-0562d434525c"
+            },
+            "target": {
+              "cell": "ca188699-bc84-4f5f-a0cd-1fb31a7027c1",
+              "port": "004dc84b-cf63-4532-8d99-13183d3a4a71"
+            },
+            "vertices": [
+              {
+                "x": 690,
+                "y": 620
               }
             ]
           },
@@ -2897,8 +3229,8 @@
           },
           {
             "position": {
-              "x": 535,
-              "y": 350
+              "x": 345,
+              "y": 330
             },
             "size": {
               "width": 120,
@@ -2906,7 +3238,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Ticket Purchasing\nPages"
+                "text": "Ticket Purchasing\nor Info Pages"
               },
               "body": {
                 "stroke": "#333333",
@@ -3002,7 +3334,7 @@
             "id": "c2fe2a32-600f-4ed1-9b3c-6f5b032e57eb",
             "data": {
               "type": "tm.Process",
-              "name": "Ticket Purchasing\nPages",
+              "name": "Ticket Purchasing\nor Info Pages",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3016,8 +3348,8 @@
           },
           {
             "position": {
-              "x": 710,
-              "y": 130
+              "x": -10,
+              "y": 725
             },
             "size": {
               "width": 112.5,
