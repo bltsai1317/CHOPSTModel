@@ -3698,8 +3698,8 @@
                 "text": "Communications \nPages"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3795,12 +3795,60 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "6609d661-d357-4b75-b644-d0f816f82213",
+                  "title": "DDOS",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "If traffic isn't monitored carefully, a malicious actor could overload the network with traffic and crash it for everyone-or in this case, someone just spamming comments or communication\n",
+                  "mitigation": "Usage of traffic throttling that would occur if a certain rate of traffic is exceeded from specific devices or sources ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "4a4a2c2e-b255-4936-ac96-906cc43c5641",
+                  "title": "MITM",
+                  "status": "Open",
+                  "severity": "TBA",
+                  "type": "Information disclosure",
+                  "description": "Being able to eavesdrop on conversations between unsuspecting people, being able to potentially intercept credentials or alter messages\n",
+                  "mitigation": "Secure Wi-Fi: WPA3, etc.\nUsing TLS when communicating to reduce risk of attack\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                },
+                {
+                  "id": "618da3f6-53cf-44c9-8b0a-5af12de345f2",
+                  "title": "Phishing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Being able to elevate privileges depending on target (spearphishing), or being able to potentially extort information or money out of people depending on what the attacker can get access to. This would likely be done through the community/chat options\n",
+                  "mitigation": "Have people who are monitoring public community logs (ie: moderators, in addition to security team)\nPrevent inclusion of non-text message content such as executable files\nFirewall blocks for any typosquat domains relating to any vendors or the event itself on the network\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 1
+              }
             }
           },
           {
@@ -4325,8 +4373,8 @@
                 "text": "Public Wi-Fi"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4422,9 +4470,40 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "d3cdb71d-87b2-4d5c-b853-27a8b18662c8",
+                  "title": "Vulnerability Scanning",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Spoofing",
+                  "description": "Being able to figure out what devices are connected and port information for future attacks of greater severity",
+                  "mitigation": "Firewall IP blocking\nUsing threat intel databases/sources to help derive blocklists\nClose any unused ports\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "b12d849e-74ef-4c04-9f78-43f97463e07f",
+                  "title": "DDOS",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "It should probably not be spoofing, but it only had spoofing and repudiation as options\nIf traffic isn't monitored carefully, a malicious actor could overload the network with traffic and crash it for everyone",
+                  "mitigation": "Usage of traffic throttling that would occur if a certain rate of traffic is exceeded from specific devices or sources ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 3,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -5920,6 +5999,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 6
+    "threatTop": 11
   }
 }
